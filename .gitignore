@@ -1,0 +1,46 @@
+# Segreti — mai committare
+.env
+*.env
+!.env.example
+
+# Claude Code (impostazioni locali)
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime data: ignora i contenuti, tieni la cartella + il README
+data/*
+!data/README.md
+!data/.gitkeep
+
+# DB / log
+*.db
+*.sqlite
+logs/
+*.log
+
+# Certificati e chiavi
+*.pem
+*.key
+*.p12
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
